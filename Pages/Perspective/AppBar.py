@@ -877,7 +877,7 @@ class AppBar(PagePiece):
         :param wait_timeout: The amount of time (in seconds) you ar wiling to wait for the Revealer to be present
             before allowing code to continue.
 
-        :raises TimeoutException: If neither the Revealer nor the App Bar become visible in the alotted time.
+        :raises TimeoutException: If neither the Revealer nor the App Bar become visible in the allotted time.
         """
         try:
             WebDriverWait(driver=self.driver, timeout=wait_timeout).until(

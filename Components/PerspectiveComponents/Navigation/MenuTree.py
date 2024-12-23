@@ -255,7 +255,7 @@ class MenuTree(BasicPerspectiveComponent):
         Determine if an icon is displayed alongside an item of the Menu Tree.
 
         :param item_text: The item you wish to query against.
-        :param is_in_submenu: Clarifies if the specified item is expecetd to be within a submenu.
+        :param is_in_submenu: Clarifies if the specified item is expected to be within a submenu.
 
         :return: True, if an icon is displayed for the specified item - False otherwise.
         """
